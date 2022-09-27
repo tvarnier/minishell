@@ -1,4 +1,4 @@
-# MINISHELL [[Sujet](https://github.com/tvarnier/42/blob/master/system/minishell/subject.pdf)]
+# MINISHELL [[Sujet](https://github.com/tvarnier/minishell/blob/master/subject.pdf)]
 
 <br>
 
@@ -31,5 +31,5 @@ Il suffit ensuite de lancer la commande `./minishell`
 <br>
 
 <div width="75%">
-  <img src="https://github.com/tvarnier/42/blob/master/system/minishell/img/example.png" width="75%">
+  <img src="https://github.com/tvarnier/minishell/blob/master/img/example.png" width="75%">
 </div>
