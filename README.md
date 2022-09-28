@@ -30,6 +30,28 @@ Il suffit ensuite de lancer la commande `./minishell`
 
 <br>
 
-<div width="75%">
-  <img src="https://github.com/tvarnier/minishell/blob/master/img/example.png" width="75%">
-</div>
+```
+ ❯ ./minishell
+minishell ■ cd srcs
+srcs ■ pwd
+/Users/tvarnier/minishell/srcs
+srcs ■ ls -l
+total 88
+-rw-r--r--  1 tvarnier  2018  3043 Sep 28 13:22 args_alloc.c
+-rw-r--r--  1 tvarnier  2018  2171 Sep 28 13:22 args_split.c
+drwxr-xr-x  8 tvarnier  2018   272 Sep 28 13:22 builtins
+-rw-r--r--  1 tvarnier  2018  1594 Sep 28 13:22 command_builtins.c
+-rw-r--r--  1 tvarnier  2018  2510 Sep 28 13:22 command_launch.c
+-rw-r--r--  1 tvarnier  2018  1795 Sep 28 13:22 command_system.c
+-rw-r--r--  1 tvarnier  2018  1863 Sep 28 13:22 env.c
+-rw-r--r--  1 tvarnier  2018  2425 Sep 28 13:22 env_set.c
+-rw-r--r--  1 tvarnier  2018  1103 Sep 28 13:22 error.c
+-rw-r--r--  1 tvarnier  2018  1499 Sep 28 13:22 main.c
+-rw-r--r--  1 tvarnier  2018  1753 Sep 28 13:22 print.c
+drwxr-xr-x  4 tvarnier  2018   136 Sep 28 13:22 read
+-rw-r--r--  1 tvarnier  2018  1472 Sep 28 13:22 struct_shell.c
+srcs ■ kwame
+kwame: command not found.
+srcs □ exit
+ ❯
+```
